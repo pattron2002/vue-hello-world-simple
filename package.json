@@ -1,25 +1,25 @@
 {
-  "name": "vue-hello-world-simple1",
+  "name": "vue-hello-world-simples",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library": "vue-cli-service build --target lib --name vue-hello-world-simple1 ./src/install.js"
+    "build-library": "vue-cli-service build --target lib --name vue-hello-world-simple ./src/install.js"
   },
   "keywords": [
     "keywords",
     "go",
     "here"
   ],
-  "description": "A simple vuejs Hello World plugin",
+  "description": "A simple  Hello World plugin in vue",
   "author": "Hamikh <pattron2002@yahoo.com>",
   "license": "MIT",
   "files": [
     "dist"
   ],
-  "main": ".dist/vue-hello-world-simple1.common.js",
+  "main": ".dist/vue-hello-world-simple.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
